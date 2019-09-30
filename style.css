@@ -1,0 +1,28 @@
+.no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.col {
+    text-align: center;
+    border: 1px solid red;
+    padding: 10px 5px;
+}
+
+.row {
+    
+}
+
+.first {
+    margin-top: 20px;
+}
+
+.btns {
+    display: block;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    margin: auto;
+}
