@@ -5,16 +5,20 @@
 
 .col {
     text-align: center;
-    border: 1px solid red;
-    padding: 10px 5px;
+    padding: 5px 5px;
 }
 
 .row {
     
 }
 
+.odd {
+    background-color: whitesmoke;
+}
+
 .first {
     margin-top: 20px;
+    border-bottom: solid 1px black;
 }
 
 .btns {
