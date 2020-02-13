@@ -1,8 +1,71 @@
+/* ----- GENERAL ----- */
+
 .no-padding {
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
 
+header > h1 {
+    margin: 1rem 2rem;
+}
+
+/* ----- INDEX ----- */
+
+
+
+/* ----- ABOUT ----- */
+
+.about_info {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin: 2%;
+    border-radius: 10px;
+}
+
+.about_info_social {
+    display: inline-block;
+    height: 2rem;
+    width: 100%;
+    margin: 0.5rem;
+    position: relative;
+}
+
+.about_info_social > i {
+    display: inline-block;
+    float: left;
+    position: absolute;
+}
+
+.about_info_social > a {
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-130%, -50%);
+}
+
+.about_headshot {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about_text {
+    display: inline-block;
+    float: right;
+    width: 66%;
+    padding-top: 2%;
+}
+
+
+/* ----- CONTACT ----- */
+
+
+
+/* ----- BINGO ----- */
 .col {
     text-align: center;
     padding: 5px 5px;
