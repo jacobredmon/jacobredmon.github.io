@@ -9,11 +9,46 @@ header > h1 {
     margin: 1rem 2rem;
 }
 
+.container {
+    position: relative;
+    min-height: 100vh;
+}
+
+main {
+    display: block;
+    overflow: auto;
+    padding-bottom: 7rem;
+}
+
+footer {
+    position: absolute;
+    overflow: auto;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    margin: 0.5rem 0.5rem 0 0.75rem;
+}
+
+footer ul li {
+    margin-bottom: 0.25rem;
+}
+
+footer div {
+    padding: 0.35rem;
+    background-color: #dee2e6;
+}
+
 /* ----- INDEX ----- */
 
 
 
 /* ----- ABOUT ----- */
+
+.about {
+    display: block;
+}
 
 .about_info {
     display: inline-block;
@@ -27,7 +62,7 @@ header > h1 {
     display: inline-block;
     height: 2rem;
     width: 100%;
-    margin: 0.5rem;
+    margin: 0.5rem 0.5rem 0 0.5rem;
     position: relative;
 }
 
