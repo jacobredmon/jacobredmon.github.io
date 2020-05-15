@@ -20,6 +20,14 @@ main {
     padding-bottom: 7rem;
 }
 
+h1, h2 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+body {
+    font-family: 'Proza Libre', sans-serif;
+}
+
 footer {
     position: absolute;
     overflow: auto;
@@ -37,7 +45,8 @@ footer ul li {
 
 footer div {
     padding: 0.35rem;
-    background-color: #dee2e6;
+    background-color: #eee;
+    color: #777;
 }
 
 /* ----- INDEX ----- */
@@ -66,19 +75,9 @@ footer div {
     position: relative;
 }
 
-.about_info_social > i {
-    display: inline-block;
-    float: left;
-    position: absolute;
-}
-
 .about_info_social > a {
     display: inline-block;
-    margin: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-130%, -50%);
+    padding: auto;
 }
 
 .about_headshot {
