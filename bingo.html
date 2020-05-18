@@ -4,12 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Bingo Board</title>
+    <title>Jacob Redmon | Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:600|IBM+Plex+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
+        
         <header>
             <h1>Jacob Redmon</h1>
             
@@ -32,6 +35,24 @@
         </header>
         
         <div class="bingo">
+            <button class="btn btn-primary" id="bingo-btn" type="button" onclick="pullNumber()">Pull a Number</button>
+            <div id="bingo-js"></div>
+            
+<!--
+            <div class="popup flex-container-center hidden">
+                <div class="bingo-ball">
+                    <div class="bingo-ball-info">
+                        <h4 class="bingo-ball-letter">B</h4>
+                        <h3 class="bingo-ball-number">1</h3>
+                    </div>
+                </div>
+                <button onclick="togglePopup()">Close</button>
+            </div>
+-->
+            
+        </div>
+        
+        <div class="bingo-board">
             <div class="row first">
                 <div class="col">B</div>
                 <div class="col">I</div>
@@ -147,7 +168,7 @@
         </div>
         
         <div class="btns">
-            <input class="btn btn-secondary clear" type="reset" text="" onclick="reset()" />
+            <input class="btn btn-secondary clear" type="reset" onclick="reset()" />
         </div>
         
         <script src="main.js"></script>   

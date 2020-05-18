@@ -25,7 +25,7 @@ h1, h2 {
 }
 
 body {
-    font-family: 'Proza Libre', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 footer {
@@ -100,6 +100,62 @@ footer div {
 
 
 /* ----- BINGO ----- */
+
+.bingo-ball {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+    border: black solid 5px;
+    background-color: maroon;
+}
+
+.bingo-ball-info {
+    margin: 98px;
+    width: 300px;
+    height:300px;
+    border-radius: 100%;
+    border: black solid 5px;
+    z-index: 366;
+    background-color: silver;
+}
+
+.bingo-ball-letter {
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.bingo-ball-number {
+    font-size: 100px
+}
+
+.popup {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 1;
+}
+
+.flex-container-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.bingo {
+    margin-top: 1rem;
+    display: block;
+    text-align: center;
+}
+
 .col {
     text-align: center;
     padding: 5px 5px;
@@ -111,6 +167,7 @@ footer div {
 }
 
 .btns {
+    margin-top: 1rem;
     display: block;
     text-align: center;
 }
