@@ -26,9 +26,15 @@ function reset()
     }
 }//end reset()
 
+
+
+
 // --------------- BINGO NUMBERS AND BALL POPUP --------------- //
+
+
+
 var bingoNumbers = [];
-for(var i = 1; i <= 75; i++){bingoNumbers.push(i);} //array of bingo numbers, 1..75
+for(var i = 1; i <= 75; i++){ bingoNumbers.push(i); } //array of bingo numbers, 1..75
 
 /*
  * Randomly chooses a number from the bingoNumbers array and removes it,
@@ -37,8 +43,8 @@ for(var i = 1; i <= 75; i++){bingoNumbers.push(i);} //array of bingo numbers, 1.
  */
 function pullNumber()
 {
-    var bingoNumber = Math.floor(Math.random() * bingoNumbers.length);
-    console.log("The number pulled was: " + bingoNumber + "\nRemaining numbers: " + bingoNumbers.length);
+    var bingoNumber = Math.ceil(Math.random() * bingoNumbers.length);
+    //console.log("The number pulled was: " + bingoNumber + "\nRemaining numbers: " + bingoNumbers.length);
     var bingoLetter;
     
     //assigns bingo letter to the number drawn
