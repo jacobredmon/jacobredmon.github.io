@@ -2,6 +2,7 @@
 This is my personal website to host my projects and resume on.
 
 ### Homepage Random Quote
+On page load, a random quote taken from my Kindle notes from books I have read will appear.
 
 ### Bingo Board
 My first project is an interactive Bingo Board. 
