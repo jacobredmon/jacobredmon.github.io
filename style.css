@@ -11,6 +11,7 @@ header > h1 {
 
 .container {
     position: relative;
+    width: 100%;
     min-height: 100vh;
 }
 
@@ -51,8 +52,49 @@ footer div {
 
 /* ----- INDEX ----- */
 
+.index {
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.index_info {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin: 2%;
+    border-radius: 10px;
+}
+
+.index_info_social {
+    display: inline-block;
+    height: 2rem;
+    width: 100%;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+    position: relative;
+}
+
+.index_info_social > a {
+    display: inline-block;
+    padding: auto;
+}
+
+.index_headshot {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.index_text {
+    display: inline-block;
+    float: right;
+    width: 66%;
+    padding-top: 2%;
+}
+
 blockquote {
-    margin: auto;
+    display: inline-block;
+    margin: 0 2.5% 1rem 2.5%;
     width: 95%;
     background-color: #eee;
     color: #484848;
@@ -61,54 +103,6 @@ blockquote {
     font-size: 1.25rem;
     margin-top: 1rem;
 }
-
-
-
-/* ----- ABOUT ----- */
-
-.about {
-    display: block;
-}
-
-.about_info {
-    display: inline-block;
-    float: left;
-    width: 30%;
-    margin: 2%;
-    border-radius: 10px;
-}
-
-.about_info_social {
-    display: inline-block;
-    height: 2rem;
-    width: 100%;
-    margin: 0.5rem 0.5rem 0 0.5rem;
-    position: relative;
-}
-
-.about_info_social > a {
-    display: inline-block;
-    padding: auto;
-}
-
-.about_headshot {
-    display: inline-block;
-    float: left;
-    width: 100%;
-    border-radius: 10px;
-}
-
-.about_text {
-    display: inline-block;
-    float: right;
-    width: 66%;
-    padding-top: 2%;
-}
-
-
-/* ----- CONTACT ----- */
-
-
 
 /* ----- BINGO ----- */
 
